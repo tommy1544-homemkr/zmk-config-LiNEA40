@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -123,10 +123,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Z           &kp W         &kp E               &kp R     &kp T                                        &kp Y           &kp U    &kp I                &kp O                     &kp P
-&kp A             &kp S         &kp D               &kp F     &kp G                                        &mt UP_ARROW H  &lt 3 J  &kp K                &kp L                     &lt 5 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C               &kp V     &kp B                                        &mt DOWN N      &kp M    &kp COMMA            &kp DOT                   &mt RIGHT_SHIFT BACKSPACE
-&mt LCTRL ESC     &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &kp LEFT  &lt 5 SPACE  &lt 2 RIGHT    &lt 2 BACKSPACE  &lt 8 ENTER              &lt 3 RIGHT_BRACKET  &mt LANGUAGE_1 BACKSLASH  &mt LANGUAGE_2 SLASH
+&lt 6 Z           &kp W         &kp E               &kp R     &kp T                                        &kp Y           &kp U    &kp I              &kp O                     &kp P
+&kp A             &kp S         &kp D               &kp F     &kp G                                        &mt UP_ARROW H  &lt 3 J  &kp K              &kp L                     &lt 5 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C               &kp V     &kp B                                        &mt DOWN N      &lt 4 M  &kp COMMA          &kp DOT                   &mt RIGHT_SHIFT BACKSPACE
+&mt LCTRL ESC     &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &kp LEFT  &lt 5 SPACE  &lt 2 RIGHT    &lt 7 BACKSPACE  &lt 8 ENTER              &kp RIGHT_BRACKET  &mt LANGUAGE_1 BACKSLASH  &mt LANGUAGE_2 SLASH
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
@@ -217,7 +217,7 @@
 
         number {
             bindings = <
-&mt KP_NUMLOCK MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                         &kp CARET  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&mt KP_NUMLOCK MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                         &kp CARET  &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
 &kp SLASH             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK                     &kp EXCL   &kp AT            &kp HASH              &kp PERCENT            &trans
 &kp LEFT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL                     &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &trans                 &trans
 &trans                &trans        &trans        &kp HOME      &trans        &kp END    &trans  &trans                       &trans                &trans                 &trans
